@@ -49,6 +49,20 @@ button:hover {
     color: #484848;
     margin: 0px 0px 0px 20%
 }
+.locations:hover .popover {
+    display: block;
+    visibility: visible;
+}
+.amenities:hover .popover {
+    display: block;
+    visibility: visible;
+}
+.popover h2 {
+    font-size: 16px;
+    color: #484848;
+    margin-bottom: 2px;
+    margin-left: 14%;
+}
 .popover {
     display: none;
     position: relative;
